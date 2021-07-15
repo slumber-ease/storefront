@@ -1913,3 +1913,56 @@ table.gallery table.fixed span.disct, table.gallery table.prices span.disct {
 }
 
 }
+
+/* for all products */
+
+@media (max-width: 700px){
+    .gpvi img {
+        width: 400px !important;
+        height: 300px !important;
+    }
+    .ttl.g-std a {
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        display: -webkit-box !important;
+        -webkit-line-clamp: 1 !important;
+        -webkit-box-orient: vertical !important;
+        text-align: left !important;
+        width: 100% !important;
+        font-weight: 700 !important;
+    }
+    .bin.g-b {
+        float: left;
+        /* width: 50%; */
+        font-weight: 700 !important;
+        color: black !important;
+    }
+    .gallery .details .fixed img {
+        height: 25px !important;
+    }
+    .clr.time2 span {
+        /* position: absolute; */
+        /* top: 0; */
+        font-weight: 900 !important;
+        font-size: 20px !important;
+        /* float: right; */
+        color: #fff !important;
+    }
+    table.gallery {
+        margin: 0 !important;
+        width: 100% !important;
+    }
+    .gallery tbody {
+        position: relative !important;
+    }
+    .clr.time2 {
+        position: absolute !important;
+        top: -100px !important;
+        left: 8px !important;
+        background: red !important;
+        padding: 10px !important;
+        border-bottom-right-radius: 20px !important;
+        border-top-right-radius: 20px !important;
+    }
+
+}
