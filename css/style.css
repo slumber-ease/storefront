@@ -1896,11 +1896,11 @@ table.gallery table.fixed span.disct, table.gallery table.prices span.disct {
         transform: translate(0%, 5px);
     }
     .search.active .input {
-        width: 100px !important;
+        width: 200px !important;
       }
       
       .search.active .ser-btn {
-        transform: translateX(98px) !important;
+        transform: translateX(198px) !important;
       }
 }
 @media (min-width: 501px) and (max-width: 1000px){
