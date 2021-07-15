@@ -1919,7 +1919,7 @@ table.gallery table.fixed span.disct, table.gallery table.prices span.disct {
 @media (min-width:350px) and (max-width: 700px){
     .gpvi img {
         width: 400px !important;
-        height: 300px !important;
+        height: 200px !important;
     }
     .ttl.g-std a {
         overflow: hidden !important;
@@ -1969,9 +1969,15 @@ table.gallery table.fixed span.disct, table.gallery table.prices span.disct {
     }
     table.gallery {
         margin: 0 !important;
-        width: 50% !important;
+        /* width: 50% !important; */
+        width: 33% !important;
         float: left !important;
         padding: 0px !important;
     }
-
+    .itemseparator {
+        display: none;
+    }
+    .content-middle, .org-wrapcens{
+        width: 100% !important;
+    }
 }
