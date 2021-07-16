@@ -1489,9 +1489,9 @@ td.prices a {
 #CentralArea td.gallery{
     height: auto;
 }
-.g-b {
+/* .g-b {
 	font-size: 44px;
-}
+} */
  .g-b {
 	display: block;
 	text-align: left;
@@ -1916,7 +1916,7 @@ table.gallery table.fixed span.disct, table.gallery table.prices span.disct {
 
 /* for all products */
 
-@media (min-width:350px) and (max-width: 700px){
+@media (min-width:350px) and (max-width: 999px){
     .gpvi img {
         width: 400px !important;
         height: 200px !important;
