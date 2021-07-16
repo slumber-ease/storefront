@@ -1981,7 +1981,7 @@ table.gallery table.fixed span.disct, table.gallery table.prices span.disct {
         width: 100% !important;
     }
     .logo-mobile img, .logo img {
-        width: 250px !important;
+        padding: 30px !important;
     }
 }
 @media (min-width: 750px) and (max-width: 1000px){
