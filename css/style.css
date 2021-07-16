@@ -1439,7 +1439,7 @@ td.prices a {
 
 /***** Tablet Layout *****/
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 769px) {
 
     /*.content-middle {*/
     /*    width: 470px !important;*/
@@ -1635,7 +1635,7 @@ td.prices a {
 
 /***** Mobile Layout *****/
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 750px) {
     .resp{
         display: block !important;
         color: red !important;
@@ -1916,7 +1916,7 @@ table.gallery table.fixed span.disct, table.gallery table.prices span.disct {
 
 /* for all products */
 
-@media (min-width:350px) and (max-width: 999px){
+@media (min-width:350px) and (max-width: 750px){
     .gpvi img {
         width: 400px !important;
         height: 200px !important;
