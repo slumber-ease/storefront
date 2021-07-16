@@ -1635,7 +1635,7 @@ td.prices a {
 
 /***** Mobile Layout *****/
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 750px) {
     .resp{
         display: block !important;
         color: red !important;
@@ -1746,7 +1746,7 @@ td.prices a {
         top: 2px;
     }
     .switch label {
-        border-radius: 100px;
+        /* border-radius: 100px; */
         height: 80px;
         width: 80px;
         background: rgba(0, 0, 0, 0.487);
@@ -1882,7 +1882,7 @@ table.gallery table.fixed span.oriprs, table.gallery table.prices span.oriprs,
 table.gallery table.fixed span.disct, table.gallery table.prices span.disct {
     display: none;
 }
-@media (min-width: 1000px){
+@media (min-width: 750px){
     .menu-col{
         line-height: 45px;
     }
@@ -1903,7 +1903,7 @@ table.gallery table.fixed span.disct, table.gallery table.prices span.disct {
         transform: translateX(198px) !important;
       }
 }
-@media (min-width: 501px) and (max-width: 1000px){
+@media (min-width: 501px) and (max-width: 750px){
     .banner-info {
         padding: 15px;
         margin-top: 0;
@@ -1979,5 +1979,13 @@ table.gallery table.fixed span.disct, table.gallery table.prices span.disct {
     }
     .content-middle, .org-wrapcens{
         width: 100% !important;
+    }
+}
+@media (min-width: 700px) and (max-width: 750px){
+    .switch {
+        position: fixed !important;
+        top: 10px !important;
+        right: 0px !important;
+        z-index: 9999;
     }
 }
