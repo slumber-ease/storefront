@@ -1980,4 +1980,12 @@ table.gallery table.fixed span.disct, table.gallery table.prices span.disct {
     .content-middle, .org-wrapcens{
         width: 100% !important;
     }
+    .logo-mobile img, .logo img {
+        width: 250px !important;
+    }
+}
+@media (min-width: 750px) and (max-width: 1000px){
+    #navbar ul li a{
+        font-size: 11px !important;
+    }
 }
