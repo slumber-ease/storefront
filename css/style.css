@@ -2009,3 +2009,10 @@ table.gallery table.fixed span.disct, table.gallery table.prices span.disct {
     transition: linear .25s;
 }
 
+.home-cat a.home-cat-btn:hover {
+    background: black;
+    color: white !important;
+}
+.home-cat a.home-cat-btn{
+ transition: .25s linear;   
+}
