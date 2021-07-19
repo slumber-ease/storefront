@@ -1992,3 +1992,12 @@ table.gallery table.fixed span.disct, table.gallery table.prices span.disct {
         padding: 30px !important;
     }
 }
+
+
+
+@media (max-width: 768px){
+    .col-md-4 .home-cat a img {
+        width: 560px !important;
+        height: 560px !important;
+    }
+}
