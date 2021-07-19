@@ -2001,3 +2001,11 @@ table.gallery table.fixed span.disct, table.gallery table.prices span.disct {
         height: 560px !important;
     }
 }
+.home-cat:hover img {
+    transform: scale(1.02);
+    filter: contrast(0.5);
+}
+.home-cat img {
+    transition: linear .25s;
+}
+
